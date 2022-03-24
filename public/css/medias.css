@@ -1,0 +1,80 @@
+@media (max-width: 1024px){
+    .image_main{
+        display: none;
+    }
+
+    .logo_cev{
+        display: none;
+    }
+
+    .risk{
+        display: none;
+    }
+}
+
+@media (max-width: 700px){
+    .camp_ensino_Fundamental{
+        position: relative;
+        left: 50%;
+    }
+
+    .Ensino_medio{
+        position: relative;
+        left: 50%;
+    }
+ }
+
+ @media (max-width: 600px){
+    .blob_sizes{
+        position: relative;
+        left: 50%;
+    }
+
+    .camp_ensino_Fundamental{
+        position: relative;
+        left: 25%;
+        padding-bottom: 5px;
+        margin-top: -50em;
+    }
+
+    .title_fundamental{
+        position: relative;
+        left: -27%;
+    }
+
+    .Ensino_medio{
+        position: relative;
+        left: 25%;
+        padding-bottom: 5px;
+    }
+
+    .title_medio{
+        position: relative;
+        left: -27%;
+    }
+
+    .Name_aulas{
+        position: relative;
+        top: -50em;
+        left: 3em;
+    }
+
+    .Subtitle_name{
+        position: relative;
+        top: -65em;
+        left: 80%;
+    }
+
+    .buttons_options{
+        top: -60em;
+        left: 15%;
+    }
+
+    .logo_meet{
+        position: relative;
+        top: -57em;
+        left: 3em;
+    }
+
+    
+ }

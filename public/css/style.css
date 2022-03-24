@@ -1,0 +1,244 @@
+html{
+    margin: 0;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.yellow{
+    color: #ffde59;
+}
+
+
+.blob_sizes{
+    position: absolute;
+    height: 790px;
+    width: 780px;
+    transform: rotate(155deg);
+    z-index: 0;
+    margin-left: -5em;
+}
+
+.image_main{
+    width: auto;
+    height: auto;
+    max-width:190em;
+    max-height:26em; 
+    position: relative;
+    z-index: 1;
+    
+}
+
+.img_side{
+    position: absolute;
+    margin-top: 7em;
+    margin-left: 3em;
+}
+
+.Name_aulas{
+    position: absolute;
+    margin-top: 4em;
+    image-rendering: optimizeQuality;
+    z-index: 1;
+    min-width: 400px;
+    margin-left: -3em;
+}
+
+.img_aulas{
+    width: 512px;
+}
+
+.Subtitle_name{
+
+    position:relative; 
+    margin-top: 16em;;
+    color: white;
+    font-size: 15px;
+    text-align: center;
+    margin-left: -7em;
+    letter-spacing: 1px;
+    line-height: 24px;
+}
+
+.buttons_options{  
+
+    display: grid;
+    position: relative;
+    margin-top: 4em;
+    margin-left: -1em;
+    gap: 20px;
+    width: 30em;
+    z-index: 1;
+}
+
+.logo_cev{
+    position: absolute;
+    margin-top:32em ;
+    margin-left: 13em;
+    z-index: 1;
+    
+}
+
+.logo_meet{
+
+    position: absolute;
+    z-index: 1;
+    margin-top: 3.5em;
+    margin-left: 7em;
+  
+}
+
+
+.Ensino_medio{
+    margin-top: 2em;
+    padding-bottom: 20px;
+}
+
+.title_fundamental{
+  
+  margin-top: 1em;
+  text-align: center;
+  font-family: 'Josefin Sans', sans-serif;
+  color: rgb(0, 22, 70); 
+  margin-bottom: 1em;  
+}
+
+.title_medio{
+   
+    text-align: center; 
+    font-family: 'Josefin Sans', sans-serif;
+    color: rgb(0, 22, 70);
+    margin-bottom: 1em;
+    
+  }
+
+.card-text{
+   
+    text-align: center;
+    font-size: 13px;
+    margin-top: -10px;
+}
+
+.card-title{
+    font-size: 16px;
+    text-align: center;
+   
+}
+
+ #color{
+    border-color: #ff7300;
+    background-color: #ff7300;
+    color: white;
+    margin-left: 4em;
+ }
+
+ h1{
+    color: rgb(0, 22, 70);
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+ }
+
+ .ftr_page{
+
+    color: white;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background: rgb(255,255,255);
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(10, 0, 78, 0.904) 25%, rgba(10, 0, 78, 0.904) 50%, rgba(6,0,106,1) 75%, rgba(255, 255, 255, 0) 100%);     
+ }
+
+ .risk{
+    
+    transform: rotate(-30deg);
+    z-index: 0;
+    position: relative;
+    left: 35em;
+    top: -20em;
+ }
+
+ body{
+    overflow-x: hidden;
+ }
+
+ @media (max-width: 1024px){
+     .image_main{
+         display: none;
+     }
+
+     .logo_cev{
+         display: none;
+     }
+
+     .risk{
+         display: none;
+     }
+ }
+
+
+ @media (max-width: 700px){
+    .camp_ensino_Fundamental{
+        position: relative;
+        left: 50%;
+    }
+
+    .Ensino_medio{
+        position: relative;
+        left: 50%;
+    }
+ }
+
+ @media (max-width: 600px){
+    .blob_sizes{
+        position: relative;
+        left: 50%;
+    }
+
+    .camp_ensino_Fundamental{
+        position: relative;
+        left: 25%;
+        padding-bottom: 5px;
+        margin-top: -50em;
+    }
+
+    .title_fundamental{
+        position: relative;
+        left: -27%;
+    }
+
+    .Ensino_medio{
+        position: relative;
+        left: 25%;
+        padding-bottom: 5px;
+    }
+
+    .title_medio{
+        position: relative;
+        left: -27%;
+    }
+
+    .Name_aulas{
+        position: relative;
+        top: -50em;
+        left: 3em;
+    }
+
+    .Subtitle_name{
+        position: relative;
+        top: -65em;
+        left: 80%;
+    }
+
+    .buttons_options{
+        top: -60em;
+        left: 15%;
+    }
+
+    .logo_meet{
+        position: relative;
+        top: -57em;
+        left: 3em;
+    }
+
+    
+ }
+
+ 
